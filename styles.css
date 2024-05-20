@@ -1,3 +1,13 @@
+/* Apply black outline around text */
+.text-outline {
+    color: white; /* Set the text color */
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black; /* Set multiple shadows to create an outline effect */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
